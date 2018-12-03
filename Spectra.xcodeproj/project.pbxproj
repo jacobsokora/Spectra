@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16CDB72F21B5EAA0002E7CDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CDB72E21B5EAA0002E7CDD /* AppDelegate.swift */; };
+		16CDB73121B5EAA0002E7CDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CDB73021B5EAA0002E7CDD /* ViewController.swift */; };
+		16CDB73421B5EAA0002E7CDD /* Spectra.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16CDB73221B5EAA0002E7CDD /* Spectra.xcdatamodeld */; };
+		16CDB73621B5EAA1002E7CDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16CDB73521B5EAA1002E7CDD /* Assets.xcassets */; };
+		16CDB73921B5EAA1002E7CDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16CDB73721B5EAA1002E7CDD /* Main.storyboard */; };
+		16CDB74521B5EAA1002E7CDD /* SpectraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CDB74421B5EAA1002E7CDD /* SpectraTests.swift */; };
+		16CDB75021B5EAA1002E7CDD /* SpectraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CDB74F21B5EAA1002E7CDD /* SpectraUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16CDB74121B5EAA1002E7CDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16CDB72321B5EAA0002E7CDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16CDB72A21B5EAA0002E7CDD;
+			remoteInfo = Spectra;
+		};
+		16CDB74C21B5EAA1002E7CDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16CDB72321B5EAA0002E7CDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16CDB72A21B5EAA0002E7CDD;
+			remoteInfo = Spectra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16CDB72B21B5EAA0002E7CDD /* Spectra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spectra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16CDB72E21B5EAA0002E7CDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16CDB73021B5EAA0002E7CDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16CDB73321B5EAA0002E7CDD /* Spectra.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Spectra.xcdatamodel; sourceTree = "<group>"; };
+		16CDB73521B5EAA1002E7CDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16CDB73821B5EAA1002E7CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16CDB73A21B5EAA1002E7CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16CDB73B21B5EAA1002E7CDD /* Spectra.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Spectra.entitlements; sourceTree = "<group>"; };
+		16CDB74021B5EAA1002E7CDD /* SpectraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpectraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16CDB74421B5EAA1002E7CDD /* SpectraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectraTests.swift; sourceTree = "<group>"; };
+		16CDB74621B5EAA1002E7CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16CDB74B21B5EAA1002E7CDD /* SpectraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpectraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16CDB74F21B5EAA1002E7CDD /* SpectraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectraUITests.swift; sourceTree = "<group>"; };
+		16CDB75121B5EAA1002E7CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16CDB72821B5EAA0002E7CDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16CDB73D21B5EAA1002E7CDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16CDB74821B5EAA1002E7CDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16CDB72221B5EAA0002E7CDD = {
+			isa = PBXGroup;
+			children = (
+				16CDB72D21B5EAA0002E7CDD /* Spectra */,
+				16CDB74321B5EAA1002E7CDD /* SpectraTests */,
+				16CDB74E21B5EAA1002E7CDD /* SpectraUITests */,
+				16CDB72C21B5EAA0002E7CDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16CDB72C21B5EAA0002E7CDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16CDB72B21B5EAA0002E7CDD /* Spectra.app */,
+				16CDB74021B5EAA1002E7CDD /* SpectraTests.xctest */,
+				16CDB74B21B5EAA1002E7CDD /* SpectraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16CDB72D21B5EAA0002E7CDD /* Spectra */ = {
+			isa = PBXGroup;
+			children = (
+				16CDB72E21B5EAA0002E7CDD /* AppDelegate.swift */,
+				16CDB73021B5EAA0002E7CDD /* ViewController.swift */,
+				16CDB73521B5EAA1002E7CDD /* Assets.xcassets */,
+				16CDB73721B5EAA1002E7CDD /* Main.storyboard */,
+				16CDB73A21B5EAA1002E7CDD /* Info.plist */,
+				16CDB73B21B5EAA1002E7CDD /* Spectra.entitlements */,
+				16CDB73221B5EAA0002E7CDD /* Spectra.xcdatamodeld */,
+			);
+			path = Spectra;
+			sourceTree = "<group>";
+		};
+		16CDB74321B5EAA1002E7CDD /* SpectraTests */ = {
+			isa = PBXGroup;
+			children = (
+				16CDB74421B5EAA1002E7CDD /* SpectraTests.swift */,
+				16CDB74621B5EAA1002E7CDD /* Info.plist */,
+			);
+			path = SpectraTests;
+			sourceTree = "<group>";
+		};
+		16CDB74E21B5EAA1002E7CDD /* SpectraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16CDB74F21B5EAA1002E7CDD /* SpectraUITests.swift */,
+				16CDB75121B5EAA1002E7CDD /* Info.plist */,
+			);
+			path = SpectraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16CDB72A21B5EAA0002E7CDD /* Spectra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16CDB75421B5EAA1002E7CDD /* Build configuration list for PBXNativeTarget "Spectra" */;
+			buildPhases = (
+				16CDB72721B5EAA0002E7CDD /* Sources */,
+				16CDB72821B5EAA0002E7CDD /* Frameworks */,
+				16CDB72921B5EAA0002E7CDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spectra;
+			productName = Spectra;
+			productReference = 16CDB72B21B5EAA0002E7CDD /* Spectra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16CDB73F21B5EAA1002E7CDD /* SpectraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16CDB75721B5EAA1002E7CDD /* Build configuration list for PBXNativeTarget "SpectraTests" */;
+			buildPhases = (
+				16CDB73C21B5EAA1002E7CDD /* Sources */,
+				16CDB73D21B5EAA1002E7CDD /* Frameworks */,
+				16CDB73E21B5EAA1002E7CDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16CDB74221B5EAA1002E7CDD /* PBXTargetDependency */,
+			);
+			name = SpectraTests;
+			productName = SpectraTests;
+			productReference = 16CDB74021B5EAA1002E7CDD /* SpectraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16CDB74A21B5EAA1002E7CDD /* SpectraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16CDB75A21B5EAA1002E7CDD /* Build configuration list for PBXNativeTarget "SpectraUITests" */;
+			buildPhases = (
+				16CDB74721B5EAA1002E7CDD /* Sources */,
+				16CDB74821B5EAA1002E7CDD /* Frameworks */,
+				16CDB74921B5EAA1002E7CDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16CDB74D21B5EAA1002E7CDD /* PBXTargetDependency */,
+			);
+			name = SpectraUITests;
+			productName = SpectraUITests;
+			productReference = 16CDB74B21B5EAA1002E7CDD /* SpectraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16CDB72321B5EAA0002E7CDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jacob Sokora";
+				TargetAttributes = {
+					16CDB72A21B5EAA0002E7CDD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					16CDB73F21B5EAA1002E7CDD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 16CDB72A21B5EAA0002E7CDD;
+					};
+					16CDB74A21B5EAA1002E7CDD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 16CDB72A21B5EAA0002E7CDD;
+					};
+				};
+			};
+			buildConfigurationList = 16CDB72621B5EAA0002E7CDD /* Build configuration list for PBXProject "Spectra" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16CDB72221B5EAA0002E7CDD;
+			productRefGroup = 16CDB72C21B5EAA0002E7CDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16CDB72A21B5EAA0002E7CDD /* Spectra */,
+				16CDB73F21B5EAA1002E7CDD /* SpectraTests */,
+				16CDB74A21B5EAA1002E7CDD /* SpectraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16CDB72921B5EAA0002E7CDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16CDB73621B5EAA1002E7CDD /* Assets.xcassets in Resources */,
+				16CDB73921B5EAA1002E7CDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16CDB73E21B5EAA1002E7CDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16CDB74921B5EAA1002E7CDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16CDB72721B5EAA0002E7CDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16CDB73121B5EAA0002E7CDD /* ViewController.swift in Sources */,
+				16CDB73421B5EAA0002E7CDD /* Spectra.xcdatamodeld in Sources */,
+				16CDB72F21B5EAA0002E7CDD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16CDB73C21B5EAA1002E7CDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16CDB74521B5EAA1002E7CDD /* SpectraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16CDB74721B5EAA1002E7CDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16CDB75021B5EAA1002E7CDD /* SpectraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16CDB74221B5EAA1002E7CDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16CDB72A21B5EAA0002E7CDD /* Spectra */;
+			targetProxy = 16CDB74121B5EAA1002E7CDD /* PBXContainerItemProxy */;
+		};
+		16CDB74D21B5EAA1002E7CDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16CDB72A21B5EAA0002E7CDD /* Spectra */;
+			targetProxy = 16CDB74C21B5EAA1002E7CDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16CDB73721B5EAA1002E7CDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16CDB73821B5EAA1002E7CDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16CDB75221B5EAA1002E7CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16CDB75321B5EAA1002E7CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		16CDB75521B5EAA1002E7CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Spectra/Spectra.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4ZEY85X5FX;
+				INFOPLIST_FILE = Spectra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.jacobsokora.Spectra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		16CDB75621B5EAA1002E7CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Spectra/Spectra.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4ZEY85X5FX;
+				INFOPLIST_FILE = Spectra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.jacobsokora.Spectra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		16CDB75821B5EAA1002E7CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4ZEY85X5FX;
+				INFOPLIST_FILE = SpectraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.jacobsokora.SpectraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spectra.app/Contents/MacOS/Spectra";
+			};
+			name = Debug;
+		};
+		16CDB75921B5EAA1002E7CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4ZEY85X5FX;
+				INFOPLIST_FILE = SpectraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.jacobsokora.SpectraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spectra.app/Contents/MacOS/Spectra";
+			};
+			name = Release;
+		};
+		16CDB75B21B5EAA1002E7CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4ZEY85X5FX;
+				INFOPLIST_FILE = SpectraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.jacobsokora.SpectraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = Spectra;
+			};
+			name = Debug;
+		};
+		16CDB75C21B5EAA1002E7CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4ZEY85X5FX;
+				INFOPLIST_FILE = SpectraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.jacobsokora.SpectraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = Spectra;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16CDB72621B5EAA0002E7CDD /* Build configuration list for PBXProject "Spectra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16CDB75221B5EAA1002E7CDD /* Debug */,
+				16CDB75321B5EAA1002E7CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16CDB75421B5EAA1002E7CDD /* Build configuration list for PBXNativeTarget "Spectra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16CDB75521B5EAA1002E7CDD /* Debug */,
+				16CDB75621B5EAA1002E7CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16CDB75721B5EAA1002E7CDD /* Build configuration list for PBXNativeTarget "SpectraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16CDB75821B5EAA1002E7CDD /* Debug */,
+				16CDB75921B5EAA1002E7CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16CDB75A21B5EAA1002E7CDD /* Build configuration list for PBXNativeTarget "SpectraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16CDB75B21B5EAA1002E7CDD /* Debug */,
+				16CDB75C21B5EAA1002E7CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		16CDB73221B5EAA0002E7CDD /* Spectra.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				16CDB73321B5EAA0002E7CDD /* Spectra.xcdatamodel */,
+			);
+			currentVersion = 16CDB73321B5EAA0002E7CDD /* Spectra.xcdatamodel */;
+			path = Spectra.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 16CDB72321B5EAA0002E7CDD /* Project object */;
+}
